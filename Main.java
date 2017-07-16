@@ -24,9 +24,11 @@ public class Main {
         while(testCase--!=0) {
             long n = scan.nextLong();
             //    long ansRec  = fibRecursion(n); // by recurion by not suitable for large number
+	    //	System.out.println(ansRec);
           //      long ansLoop = fibLoop(n);    // suitable for large numbers
+	//	System.out.println(ansLoop);
             long ans = fib(n + 2); // this gives result in log(n)
-            System.out.println(ans + " "  + " " );
+            System.out.println(ans);
 
         }
         }
